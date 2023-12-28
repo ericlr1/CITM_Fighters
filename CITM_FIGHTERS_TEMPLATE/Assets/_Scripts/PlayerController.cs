@@ -20,9 +20,6 @@ public class PlayerController : MonoBehaviour
 
     public bool Dead => _dead;
 
-
-
-
     #region AnimationParamNames
     const string SPEED = "Speed";
     const string ATTACK_HIGH_QUICK = "AttackHighQuick";
