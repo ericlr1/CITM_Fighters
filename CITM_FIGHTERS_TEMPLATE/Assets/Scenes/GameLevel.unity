@@ -821,15 +821,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 48281277136b0fa41b6416635dfac1ef, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.12
+      value: -4.121
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 48281277136b0fa41b6416635dfac1ef, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.14
+      value: 0.22
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 48281277136b0fa41b6416635dfac1ef, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.47
+      value: -1.479
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 48281277136b0fa41b6416635dfac1ef, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1136,7 +1136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0238b7fd6212d2448340f30bf2329d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveLimits: {x: -5, y: 5}
+  MoveLimits: {x: -10, y: 5}
   SafetyDistance: 0.5
 --- !u!114 &1033463677
 MonoBehaviour:
@@ -1150,7 +1150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 40bb2ba322a8ec046a0ef6ab2b5634c7, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: 96596ba75cc300944b7fdba8647126a5, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -1229,7 +1229,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a5f3f9dd70d741b4db784a8e07611ef2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.32000005
+      value: 0.11
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a5f3f9dd70d741b4db784a8e07611ef2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1592,7 +1592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 96596ba75cc300944b7fdba8647126a5, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: 40bb2ba322a8ec046a0ef6ab2b5634c7, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
