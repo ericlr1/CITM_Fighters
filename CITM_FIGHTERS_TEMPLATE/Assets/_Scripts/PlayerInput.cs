@@ -21,6 +21,7 @@ public class PlayerInput : MonoBehaviour
     {
         _moveController.TryMove(_speed);
     }
+
     // Start is called before the first frame update
     private void OnMove(InputValue input)
     {

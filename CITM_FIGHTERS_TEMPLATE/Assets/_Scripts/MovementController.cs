@@ -13,16 +13,6 @@ public class MovementController : MonoBehaviour
     // Start is called before the first frame update
    
 
-    
-
-    #region AnimationParamNames
-    const string SPEED = "Speed";
-    const string ATTACK_HIGH_QUICK = "AttackHighQuick";
-    const string DIE = "Die";
-    const string WIN = "Win";
-
-    #endregion
-
     private Animator _animator;
     private Transform _otherPlayer;
 
@@ -43,17 +33,23 @@ public class MovementController : MonoBehaviour
     
     public void TryMove(float speed)
     {
-        
 
-        if (CanMove(speed))
-        {       
-            _animator.SetFloat(SPEED, _id == 1 ? -speed : speed);
+        if (CanMove(speed) && speed != 0f)
+        {
+            float directionSpeed = _id == 1 ? -speed : speed;
+
+            _animator.SetInteger(PlayerController.SPEED, speed > 0f ? 1 : -1);
+
+            float deltaSpeed = directionSpeed * Time.deltaTime;
+
+            Vector3 pos = transform.position;
+            pos.x += deltaSpeed;
+            transform.position = pos;
         }
-            
         else
-            _animator.SetFloat(SPEED, 0);
-
-
+        {
+            _animator.SetInteger(PlayerController.SPEED, 0);
+        }
     }
 
     public void LateUpdate()
