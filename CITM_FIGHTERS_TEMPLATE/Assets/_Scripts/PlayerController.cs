@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     const string ATTACK_HIGH_QUICK = "AttackHighQuick";
     const string ATTACK_HIGH_SLOW = "AttackHighSlow";
     const string ATTACK_LOW_QUICK = "AttackLowQuick";
-    const string ATTACK_LOW_SLOW = "AttackLwowSlow";
+    const string ATTACK_LOW_SLOW = "AttackLowSlow";
 
     const string BLOCK_HIGH = "BlockHigh";
     const string BLOCK_LOW = "BlockLow";
