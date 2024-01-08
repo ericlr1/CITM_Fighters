@@ -7,7 +7,8 @@ public class Target : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
-        
+        Debug.Log(other.name);
+
         var attack = other.GetComponent<Attack>();
         if (attack != null)
         {
