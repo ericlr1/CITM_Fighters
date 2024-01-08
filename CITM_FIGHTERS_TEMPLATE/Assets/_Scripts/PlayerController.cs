@@ -74,7 +74,6 @@ public class PlayerController : MonoBehaviour
             _animator.SetTrigger(ATTACK_HIGH_QUICK);
             _isAttacking = true;
         }
-
     }
     public void TryHighSlowAttack()
     {
@@ -83,7 +82,6 @@ public class PlayerController : MonoBehaviour
             _animator.SetTrigger(ATTACK_HIGH_SLOW);
             _isAttacking = true;
         }
-
     }
     public void TryLowQuickAttack()
     {
@@ -100,8 +98,7 @@ public class PlayerController : MonoBehaviour
         {
             _animator.SetTrigger(ATTACK_LOW_SLOW);
             _isAttacking = true;
-        }
-    
+        }    
     }
 
     internal void TryHighBlock()
@@ -124,7 +121,7 @@ public class PlayerController : MonoBehaviour
         {
             if (!_isBlocking || hitBy.UpOrDown!=this.UpOrDown || hitBy.Dead)
             {
-                hitBy._isAttacking = false;
+                _isAttacking = false;
                 Die();
                 hitBy.Win();
                 Instantiate(ImpactPrefab, hit.position, Quaternion.identity);
