@@ -1,5 +1,5 @@
 {
-    "name": "SimpleMultiplayerControls",
+    "name": "SimonController",
     "maps": [
         {
             "name": "Player",
@@ -141,7 +141,7 @@
                 {
                     "name": "positive",
                     "id": "8a3159f0-5e23-488b-8c17-6c227b8c33c7",
-                    "path": "<Keyboard>/d",
+                    "path": "<Keyboard>/leftArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -196,7 +196,7 @@
                 {
                     "name": "negative",
                     "id": "c20bf137-a907-4b38-84dd-50dabf5f5852",
-                    "path": "<Keyboard>/s",
+                    "path": "<Keyboard>/downArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -207,7 +207,7 @@
                 {
                     "name": "positive",
                     "id": "7fa815b8-d759-4381-b836-c6e8b981b941",
-                    "path": "<Keyboard>/w",
+                    "path": "<Keyboard>/upArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
