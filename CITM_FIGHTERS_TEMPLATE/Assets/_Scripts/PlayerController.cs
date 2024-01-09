@@ -119,18 +119,21 @@ public class PlayerController : MonoBehaviour
 
     public void OnHit(Transform hit)
     {
+       
         var hitBy = hit.root.GetComponent<PlayerController>();
+        hitBy._isAttacking = true;
         if (hitBy.transform == _otherPlayer && hitBy._isAttacking)
         {
-            hitBy._isAttacking = true;
             if (!_isBlocking || hitBy.UpOrDown!=this.UpOrDown || hitBy.Dead)
             {
                 Die();
                 hitBy.Win();
+                hitBy._isAttacking = false;
                 Instantiate(ImpactPrefab, hit.position, Quaternion.identity);
             }
  
         }
+
     }
 
     private void Die()
