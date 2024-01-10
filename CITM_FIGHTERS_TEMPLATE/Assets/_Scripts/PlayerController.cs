@@ -139,22 +139,19 @@ public class PlayerController : MonoBehaviour
     private void Die()
     {
         _animator.SetTrigger(DIE);
-
       //  GetComponent<AudioSource>().Play();
         StartCoroutine(DieLater());
-
-
     }
 
     IEnumerator DieLater()
     {
         yield return new WaitForSeconds(0.1f);
         _dead = true;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(3);
         PlayerStart.nPLayers = 0;
         _playercount = 0;
         MovementController._playercount = 0;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("End");
     }
 
     public void Win()

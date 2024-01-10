@@ -25,6 +25,11 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene("GameLevel");
     }
+
+    public void PlayAgain()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
     public void ExitGame()
     {
         #if UNITY_EDITOR
