@@ -938,6 +938,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1443332100440087671, guid: 24228d1c2efd93d49a56dced983a1e2d, type: 3}
+      propertyPath: m_Actions
+      value: 
+      objectReference: {fileID: -944628639613478452, guid: ae1456690a12bce4c91db9afd1e020fc, type: 3}
+    - target: {fileID: 1443332100440087671, guid: 24228d1c2efd93d49a56dced983a1e2d, type: 3}
       propertyPath: m_NeverAutoSwitchControlSchemes
       value: 0
       objectReference: {fileID: 0}
@@ -1270,7 +1274,7 @@ PrefabInstance:
     - target: {fileID: 9190219845805427380, guid: 97eab2b076a9b5540b7ab8da077d50be, type: 3}
       propertyPath: m_Actions
       value: 
-      objectReference: {fileID: -944628639613478452, guid: 91329c22cd617404fb02d9b090ebd57c, type: 3}
+      objectReference: {fileID: -944628639613478452, guid: 2860b3eea0c88e14097b6a7f79cea3fa, type: 3}
     - target: {fileID: 9190219845805427380, guid: 97eab2b076a9b5540b7ab8da077d50be, type: 3}
       propertyPath: m_NeverAutoSwitchControlSchemes
       value: 0
