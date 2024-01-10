@@ -679,56 +679,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Actions: {fileID: -944628639613478452, guid: ae1456690a12bce4c91db9afd1e020fc, type: 3}
-  m_NotificationBehavior: 2
+  m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11500000, guid: 1dcd2bdc0ab61ff488504182c86673a0, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_DeviceRegainedEvent:
     m_PersistentCalls:
       m_Calls: []
   m_ControlsChangedEvent:
     m_PersistentCalls:
       m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: da5efce7-0b41-45bb-9a3c-2c57823845bf
-    m_ActionName: Player/Teleport[/Mouse/leftButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: d849cdd8-39af-49fe-a328-d4406ed3d185
-    m_ActionName: Player/Move[/Keyboard/leftArrow,/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 0efb88e0-c59e-47a9-9c94-bd59841a2764
-    m_ActionName: Player/QuickAttack[/Keyboard/i]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: ac4f7a0a-f60a-4eb4-80d6-2ad670634b7a
-    m_ActionName: Player/SlowAttack[/Keyboard/o]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: dc4415e5-472b-4c1c-ad51-bbf325c1a6ce
-    m_ActionName: Player/UpDown[/Keyboard/downArrow,/Keyboard/upArrow]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 96b32dfb-466e-422c-8fbf-1f7f7cd5d33b
-    m_ActionName: Player/Block[/Keyboard/p]
+  m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 1
-  m_DefaultControlScheme: Keyboard&Mouse
+  m_DefaultControlScheme: 
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
