@@ -150,7 +150,6 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(3);
         PlayerStart.nPLayers = 0;
         _playercount = 0;
-        MovementController._playercount = 0;
         SceneManager.LoadScene("End");
     }
 

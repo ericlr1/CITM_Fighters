@@ -343,7 +343,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 424502349}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: GameScene
+        m_MethodName: GameSceneFiona_Finn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -812,7 +812,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 424502349}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: GameScene
+        m_MethodName: GameSceneMaga_Simon
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

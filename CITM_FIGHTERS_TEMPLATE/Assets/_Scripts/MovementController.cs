@@ -10,7 +10,7 @@ public class MovementController : MonoBehaviour
 
     [SerializeField]
     float SafetyDistance=0.5f;
-    // Start is called before the first frame update
+
    
 
     private Animator _animator;
@@ -69,31 +69,14 @@ public class MovementController : MonoBehaviour
         return true;
     }
 
-    bool CanMoveLeft()
-    {
-        if (transform.position.x <= MoveLimits.x)
-            return false;
-
-        if (_otherPlayer == null)
-            return true;
-
-        if (_id == 1 && transform.position.x <= (_otherPlayer.position.x + SafetyDistance))
-            return false;
-
+    bool CanMoveLeft() {
         return true;
     }
     bool CanMoveRight()
     {
-        if (transform.position.x >= MoveLimits.y)
-            return false;
-
-        if (_otherPlayer == null)
-            return true;
-
-        if (_id == 0 && transform.position.x >= (_otherPlayer.position.x - SafetyDistance))
-            return false;
 
         return true;
+
     }
 
   

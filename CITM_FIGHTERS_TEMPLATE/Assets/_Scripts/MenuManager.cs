@@ -21,9 +21,13 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene("SelectCharacter");
     }
-    public void GameScene()
+    public void GameSceneFiona_Finn()
     {
-        SceneManager.LoadScene("GameLevel");
+        SceneManager.LoadScene("GameLevel Finn_Fiona");
+    }
+    public void GameSceneMaga_Simon()
+    {
+        SceneManager.LoadScene("GameLevel Maga_Simon");
     }
 
     public void PlayAgain()
