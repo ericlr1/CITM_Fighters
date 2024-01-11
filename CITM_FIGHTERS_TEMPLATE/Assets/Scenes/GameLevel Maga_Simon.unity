@@ -1136,19 +1136,19 @@ PrefabInstance:
       objectReference: {fileID: 100004, guid: 6836f5eaa96f845c4ac0909f84272556, type: 3}
     - target: {fileID: 8708330298641903436, guid: 24228d1c2efd93d49a56dced983a1e2d, type: 3}
       propertyPath: StartPositions.Array.data[0].x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8708330298641903436, guid: 24228d1c2efd93d49a56dced983a1e2d, type: 3}
-      propertyPath: StartPositions.Array.data[1].x
       value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 8708330298641903436, guid: 24228d1c2efd93d49a56dced983a1e2d, type: 3}
+      propertyPath: StartPositions.Array.data[1].x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708330298641903436, guid: 24228d1c2efd93d49a56dced983a1e2d, type: 3}
       propertyPath: StartRotations.Array.data[0].y
-      value: -90
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 8708330298641903436, guid: 24228d1c2efd93d49a56dced983a1e2d, type: 3}
       propertyPath: StartRotations.Array.data[1].y
-      value: 90
+      value: -90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1575,19 +1575,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6352394080826922656, guid: 97eab2b076a9b5540b7ab8da077d50be, type: 3}
       propertyPath: StartPositions.Array.data[0].x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6352394080826922656, guid: 97eab2b076a9b5540b7ab8da077d50be, type: 3}
-      propertyPath: StartPositions.Array.data[1].x
       value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 6352394080826922656, guid: 97eab2b076a9b5540b7ab8da077d50be, type: 3}
+      propertyPath: StartPositions.Array.data[1].x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6352394080826922656, guid: 97eab2b076a9b5540b7ab8da077d50be, type: 3}
       propertyPath: StartRotations.Array.data[0].y
-      value: -100
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6352394080826922656, guid: 97eab2b076a9b5540b7ab8da077d50be, type: 3}
       propertyPath: StartRotations.Array.data[1].y
-      value: 100
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 8204192746400119722, guid: 97eab2b076a9b5540b7ab8da077d50be, type: 3}
       propertyPath: m_RootOrder
