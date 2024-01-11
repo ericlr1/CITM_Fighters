@@ -9,7 +9,7 @@ public class MovementController : MonoBehaviour
     Vector2 MoveLimits=new Vector2(-5,5);
 
     [SerializeField]
-    float SafetyDistance=0.5f;
+
 
    
 

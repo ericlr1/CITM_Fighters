@@ -8,13 +8,13 @@ public class MenuManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void SelectCharacters()
@@ -36,10 +36,11 @@ public class MenuManager : MonoBehaviour
     }
     public void ExitGame()
     {
-        #if UNITY_EDITOR
+#if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
-        #else
-        Applicattion.quit();
-        #endif
+#else
+    Application.Quit();
+#endif
     }
 }
+    
